@@ -1,4 +1,4 @@
-# DeapLearningLibrary
+# DeepLearningLibrary
 
 ## is a cplusplus tool for deep learing.
 ## I did it to practice implementing functions in deep learning to
