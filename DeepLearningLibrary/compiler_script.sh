@@ -1,8 +1,10 @@
 #!/bin/bash
-g++ -c headers/activation_functions.cpp
-g++ -c headers/preprocessing.cpp
-g++ -c main.cpp
-g++ -o main activation_functions.o preprocessing.o main.o
+# g++ -c headers/activation_functions.cpp
+# g++ -c headers/preprocessing.cpp
+# g++ -c main.cpp
+g++ -c *.cpp
+# g++ -o main activation_functions.o preprocessing.o main.o
+g++ -o main *.o
 
 mkdir build
 mv main build/
