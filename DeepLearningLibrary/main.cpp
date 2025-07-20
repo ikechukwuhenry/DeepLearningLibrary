@@ -4,7 +4,6 @@
 //
 //  Created by IK on 09/04/2024.
 //
-
 #include <iostream>
 #include <vector>
 #include <numeric>
