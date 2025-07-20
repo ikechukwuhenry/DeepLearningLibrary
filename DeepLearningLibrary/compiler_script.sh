@@ -2,11 +2,12 @@
 # g++ -c headers/activation_functions.cpp
 # g++ -c headers/preprocessing.cpp
 # g++ -c main.cpp
-g++ -c *.cpp headers/*.cpp
-g++ -o main activation_functions.o preprocessing.o main.o
+g++ -c src/*.cpp
+# g++ -c main.cpp
+g++ -o main *.o
 # g++ -o main *.o
 
-mkdir build
+# mkdir build
 mv main build/
 mv *.o build/  
 cd build  
@@ -14,9 +15,9 @@ cd build
 ./main
 
 # Clean up object files
-rm *.o
+# rm *.o
 # Clean up the executable
-rm main
+# rm main
 # Clean up the build directory
 cd ..
 # rm -rf build

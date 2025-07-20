@@ -7,8 +7,8 @@
 #include <iostream>
 #include <vector>
 #include <numeric>
-#include "headers/activation_functions.h"
-#include "headers/preprocessing.h"
+#include "../headers/activation_functions.h"
+#include "../headers/preprocessing.h"
 
 std::vector<float> vec = { 5,  10, 15, 20, 25, 30, 35, 40,
                         45, 50, 55, 60, 65, 70, 71, 43.2 };
